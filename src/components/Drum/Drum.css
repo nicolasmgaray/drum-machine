@@ -1,0 +1,31 @@
+#drum-machine {
+  font-size: 0.6rem;
+  width: auto;
+  height: auto;
+  background-color: #eee;
+  display: grid;
+  grid-template:
+    "pad-bank display" 1fr
+    "pad-bank toggles" 1fr
+ 
+    / 70% 30%;
+  border-radius: 1em;
+  padding: 2em;
+}
+
+#toggles-container {
+  grid-area: toggles;
+}
+
+
+@media (max-width: 900px){
+  #drum-machine {
+    font-size: 0.8rem;
+    grid-template:
+      "pad-bank pad-bank" auto
+      "display toggles" auto     
+      / auto;
+  
+  }
+
+}

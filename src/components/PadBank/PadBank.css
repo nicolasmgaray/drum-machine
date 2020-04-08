@@ -1,0 +1,10 @@
+#pad-bank {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: pad-bank;
+  width: 30em;
+  height: 30em;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}

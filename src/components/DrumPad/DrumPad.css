@@ -1,0 +1,22 @@
+.drum-pad {
+  font-size: 2em;
+  width: 3.5em;
+  margin: 0.2em;
+  height: 3.5em;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 5px 5px 5px rgba(0,0,0,0.1);
+  display: flex;
+  font-weight: bold;
+  border-radius: 0.5em;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+
+
+.active {
+  background-color: var(--main-color);
+}
