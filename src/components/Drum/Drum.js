@@ -1,35 +1,10 @@
-import React, { useState } from "react";
+import React  from "react";
 import Display from "../Display";
 import PadBank from "../PadBank";
 import Toggle from "../Toggle";
 import "./Drum.css";
 
-const Drum = () => {
-  const [state, setState] = useState({
-    power: true,
-    soundBank: true,
-    display: "",
-  });
-
-  const updateDisplay = (text) => {
-    setState((x) => {
-      return { ...x, display: text };
-    });
-  };
-
-
-  const toggleSoundBank = () => {
-    setState((x) => {
-      return { ...x, soundBank: !x.soundBank };
-    });
-  };
-
-  const togglePower = () => {
-    setState((x) => {
-      return { ...x, power: !x.power };
-    });
-  };
-
+const Drum = ({ state, updateDisplay, togglePower, toggleSoundBank }) => {
   return (
     <div id="drum-machine">
       <Display {...state}></Display>
@@ -40,8 +15,11 @@ const Drum = () => {
           value={state.power}
           toggleValue={togglePower}
         ></Toggle>
-        <Toggle label="BANK"  value={state.soundBank}
-          toggleValue={toggleSoundBank}></Toggle>
+        <Toggle
+          label="BANK"
+          value={state.soundBank}
+          toggleValue={toggleSoundBank}
+        ></Toggle>
       </div>
     </div>
   );

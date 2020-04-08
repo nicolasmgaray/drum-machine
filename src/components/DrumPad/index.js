@@ -1,2 +1,2 @@
-import DrumPad from "./DrumPad.js"
+import DrumPad from "./DrumPadContainer.js"
 export default DrumPad;

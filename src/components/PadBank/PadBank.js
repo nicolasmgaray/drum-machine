@@ -5,6 +5,7 @@ import "./PadBank.css";
 
 const PadBank = ({ soundBank=1, updateDisplay, power=true }) => {
   const selectedSoundBank = soundBank === true ? bankOne : bankTwo;
+ 
   return (
     <div id="pad-bank">
       {selectedSoundBank.map((x) => (

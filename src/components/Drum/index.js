@@ -1,2 +1,2 @@
-import Drum from "./Drum.js"
+import Drum from "./DrumContainer.js"
 export default Drum;

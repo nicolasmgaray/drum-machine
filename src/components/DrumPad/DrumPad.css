@@ -17,6 +17,6 @@
 
 
 
-.active {
+.drum-pad.on {
   background-color: var(--main-color);
 }
