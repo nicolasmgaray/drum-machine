@@ -4,7 +4,9 @@
 ![STATUS](https://img.shields.io/github/deployments/nicolasmgaray/fcc-drum-machine/production?label=STATUS&logo=zeit&style=for-the-badge)
 ![COMMIT](https://img.shields.io/github/last-commit/nicolasmgaray/fcc-drum-machine?logo=github&style=for-the-badge)
 
-This project was made to achieve FCC Front End Libraries Certification.
+Litte drum machine app made with react.
 
-See the live demo here: https://drum-machine-fcc.now.sh/
+## Live Demo
+
+https://mng-drum-machine.now.sh/
 
