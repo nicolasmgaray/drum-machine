@@ -4,6 +4,7 @@
   margin: 1em;
   justify-content: center;
   align-items: center;
+  cursor:pointer;
 }
 
 .toggle-label {
